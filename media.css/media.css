@@ -1,0 +1,279 @@
+/* 1200 */
+@media(max-width:1200px){
+    .container{
+        max-width: 1024px;
+    }
+    .job .wrapper{
+        justify-content: space-evenly;
+    }
+
+    .count .container{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .count .card{
+        margin-bottom: 30px;
+    }
+
+    .services .wrapper .container{
+        justify-content: center;
+    }
+
+    .partners .wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .partners .item{
+        margin: 15px;
+
+    }
+
+   
+/* 1024 */
+@media(max-width:1024px){
+    .container{
+        
+        max-width: 768px;
+    }
+    .about .company{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .about .image-block{
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .about .direct .list{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about .direct .list-item{
+        width: auto;
+        flex-direction: column;
+    }
+
+    .header{
+        position: fixed;
+        width: 100%;
+        z-index: 989999;
+    }
+
+    .title-text h3{
+        margin-left: 120px;
+    }
+    .title-text p{
+        font-size: 15px;
+        margin-left: 120px;
+    }
+
+    .contact{
+        padding: 4px 0;
+    }
+
+    .contact h3{
+        margin-left: 140px;
+        
+    }
+
+    .sv .staff-logo::before{
+        display: none;
+    }
+
+   
+}
+/* 768 */
+@media(max-width:768px){
+    .container{
+        width: 100%;
+        max-width: 425px;
+    }
+
+    .header{
+        position: fixed;
+        width: 100%;
+        z-index: 999999;
+    }
+    .header-nav{
+        justify-content: center;
+        height: 60px;
+    }
+    .header-nav .menu{
+        display: none;
+    }
+
+    .main{
+        padding: 200px 0;
+    } 
+
+    .contacts{
+        width: 100%;
+        /* max-width: 100%; */
+    }
+
+    .detail{
+        /* width: 500px; */
+    }
+
+    .title-text{
+        
+    }
+
+    .sv-page{
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: space-between;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+
+    .title-text h3{
+        margin-left: 37px;
+    }
+    .title-text p{
+        margin-left: -13px;
+    }
+
+    .checkbox{
+        width: 300px;
+        margin-left: -17px;
+    }
+
+    .sv-detail{
+        width: 292px;
+        margin-left: -17px;
+    }
+
+    
+    .contacts{
+        background: #e8f2fc;
+    }
+
+    
+    .contact{
+        margin-top: 100px;
+        height: 100%;
+    }
+
+    .contact .phone{
+        margin-left: 150px;
+    }
+
+    .contact h3{
+       margin-left: 200px;
+    }
+
+    form{
+        width: 400px;
+        
+    }
+
+
+
+    .footer{
+        margin-top: 700px;
+        
+    }
+} 
+/* 425 */
+@media(max-width:425px){
+    .container{
+        max-width: 100%;
+    }
+    /* .header{
+        width: 100%;
+        position: fixed;
+        z-index: 9999;
+    } */
+    .main-content .main-text{
+        font-size: 15px;
+        margin: 35px 0;
+    }
+
+    .main-content .main-link{
+        font-size: 15px;
+        padding:15px 20px;
+    }
+
+    .job,
+    .count,
+    .services,
+    .about,
+    .partners{
+        padding: 50px 0;
+    }
+
+    .site-title{
+        font-size: 25px;
+    }
+
+    .site-subtitle{
+        font-size: 15px;
+        margin-top: 25px;
+    }
+
+    .about .direct .list-item{
+        font-size: 15px;
+        padding-left: 35px;
+        height: 25px;
+        background-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    .about{
+        padding-bottom: 0;
+    }
+
+    .services .item{
+        width: 100%;
+
+    }
+
+    .services .item .top .number{
+        font-size: 40px;
+        margin-right: 20px;
+        line-height: 1;
+    }
+    .services .item .top .title{
+        font-size: 20px;
+    }
+
+    .services .item ul li{
+        font-size: 15px;
+        padding-left: 25px;
+    }
+
+    .services{
+        padding-bottom: 0;
+    }
+
+    .partners .wrapper{
+        margin: 25px 0;
+    }
+
+    .sv-detail{
+        margin-left: 56px;
+    }
+    .title-text h3{
+        margin-left: 120px;
+    }
+
+    .title-text p{
+        margin-left: 67px;
+    }
+
+    .checkbox{
+        margin-left:57px;
+    }
+
+    .contact h3{
+        margin: 50px 0 0 70px;
+    }
+    .contact .phone{
+        margin-left: 20px;
+    }
+}
+
+}
